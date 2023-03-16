@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-* main - this is the main function
-* Return: always 1
-*
-*/
+   * main - Entry
+   * Return: 1
+   */
 int main(void)
 {
-write("2 ,and that piece of art is useful\" - Dora Korpar, 2015-10-19\n, 50");
-return (1);
+write(1, "and that piece of art is useful \" - Dor Korpar, 2015-10-19\n, 59);
+ return (1);
 }

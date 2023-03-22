@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_sign - Entry point
  *@n:character in ASCII

@@ -5,8 +5,8 @@
  * @x: int to be added to x
  * Return: sum of x and y
  */
-int add(int, int)
+int add(int x, int y)
 {
 	int result =  x + y;
 
-		return(result);
+		return (result);

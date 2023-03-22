@@ -12,3 +12,4 @@ int add(int x, int y)
 	c = x + y;
 
 		return (c);
+}

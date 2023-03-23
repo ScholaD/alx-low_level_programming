@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *positive_or_negative - tests function that prints
- *@i: value of i
+ *main - tests function that prints
+ *
  *Return: 0
  */
-int main (void)
+int main(void)
 {
 	int i;
 

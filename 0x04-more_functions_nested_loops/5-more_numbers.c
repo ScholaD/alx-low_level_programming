@@ -1,4 +1,4 @@
-#imclude "main.h"
+#include "main.h"
 /**
  *more_numbers - main point
  * _putchar: prints result

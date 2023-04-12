@@ -1,0 +1,12 @@
+trdup.c:16:2: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   16 |  int len, i;
+         |  ^~~
+	 cc1: all warnings being treated as errors:wqrdup.c:16:2: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   16 |  int len, i;
+         |  ^~~
+	 cc1: all warnings being treated as errors
+	1-strdup.c: In function ‘_strdup’:
+	1-strdup.c:16:2: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+	   16 |  int len, i;
+	         |  ^~~
+		 cc1: all warnings being treated as errors

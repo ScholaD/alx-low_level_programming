@@ -1,4 +1,4 @@
-#include "main.h"
+io#include "main.h"
 #include <stdlib.h>
 #include <string.h>
 /**
@@ -9,9 +9,8 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int len1, len2, i;
+	size_t j, len1, len2, i;
 	char *result;
-	size_t j;
 
 	if (s1 == NULL)
 	{

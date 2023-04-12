@@ -1,0 +1,5 @@
+tr_concat.c:36:16: error: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Werror=sign-compare]
+   36 |  for (j = 0; j < len2; j++)
+         |                ^
+	 cc1: all warnings being treated as errorscl:wq
+

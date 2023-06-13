@@ -10,23 +10,23 @@
 char *_strdup(char *str)
 {
 	int len, i;
-	char *new_str;
+	char *new_ptr;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 	len = strlen(str);
-	new_str = malloc(len + 1);
+	new_ptr = malloc(len + 1);
 
-	if (new_str == NULL)
+	if (new_ptr == NULL)
 	{
 		return (NULL);
 	}
 	for (i = 0; i <= len; i++)
 	{
-		new_str[i] = str[i];
+		new_ptr[i] = str[i];
 	}
-	new_str[len] = '\0';
-	return (new_str);
+	new_ptr[len] = '\0';
+	return (new_ptr);
 }

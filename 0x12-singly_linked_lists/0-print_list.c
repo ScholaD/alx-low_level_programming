@@ -8,14 +8,14 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t s;
+	size_t j;
 
-	for (s = 0; h != NULL; h = h->next, s++)
+	for (j = 0; h != NULL; h = h->next, j++)
 	{
 		if (h->str == NULL)
 			printf("[0] (nil)\n");
 		else
 			printf("[%u] %s\n", h->len, h->str);
 	}
-	return (s);
+	return (j);
 }

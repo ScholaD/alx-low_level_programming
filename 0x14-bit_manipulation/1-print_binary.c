@@ -5,20 +5,20 @@
  **/
 void print_binary(unsigned long int n)
 {
-	int i, count = 0;
+	int in, total = 0;
 	unsigned long int current;
 
-	for (i = 63; i >= 0; i--)
+	for (in = 63; in >= 0; in--)
 	{
-		current = n >> i;
+		current = n >> in;
 		if (current & 1)
 		{
 			_putchar('1');
-			count++;
+			total++;
 		}
-		else if (count)
+		else if (total)
 			_putchar('0');
 	}
-	if (!count)
+	if (!total)
 		_putchar('0');
 }
